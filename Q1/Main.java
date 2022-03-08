@@ -8,5 +8,6 @@ public class Main {
         CircleWithException test = new CircleWithException(area);
         System.out.println("Area: " + test.getArea());
         System.out.println("Diameter: " + test.getDiameter());
+        input.close();
     }
 }
